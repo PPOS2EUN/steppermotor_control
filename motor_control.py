@@ -2,6 +2,20 @@
 import RPi.GPIO as GPIO
 from time import sleep
 
+# 비디오
+net = jetson.inference.detectNet("ssd-mobilenet-v2", threshold=0.5)
+camera = jetson.utils.videoSource("csi://0")      # '/dev/video0' for V4L2
+display = jetson.utils.videoOutput("display://0")
+
+while display.IsStreaming():
+	img = camera.Capture()
+	detections = net.Detect(img)
+	display.Render(img)
+	display.SetStatus("Object Detection | Network {:.0f} FPS".format(net.GetNetworkFPS()))
+
+
+
+
 # Direction pin from controller
 DIR = 10
 # Step pin from controller
@@ -35,7 +49,6 @@ try:
                         # Set coil winding to low
                         GPIO.output(STEP, GPIO.LOW)
                         sleep(.005) # Dictates how fast stepper motor will run
-
                 sleep(1.0)
                 GPIO.output(DIR, CCW)
                 for x in range(2000):
@@ -43,7 +56,6 @@ try:
                         sleep(.005)
                         GPIO.output(STEP, GPIO.LOW)
                         sleep(.005)
-
 # Once finished clean everything up
 except KeyboardInterrupt:
         print("cleanup")
