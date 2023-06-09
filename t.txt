@@ -1,0 +1,1019 @@
+[gstreamer] initialized gstreamer, version 1.16.3.0
+[gstreamer] gstCamera -- attempting to create device v4l2:///dev/video0
+[gstreamer] gstCamera -- found v4l2 device: HD Pro Webcam C920
+[gstreamer] v4l2-proplist, device.path=(string)/dev/video0, udev-probed=(boolean)false, device.api=(string)v4l2, v4l2.device.driver=(string)uvcvideo, v4l2.device.card=(string)"HD\ Pro\ Webcam\ C920", v4l2.device.bus_info=(string)usb-3610000.xhci-1.1, v4l2.device.version=(uint)330344, v4l2.device.capabilities=(uint)2225078273, v4l2.device.device_caps=(uint)69206017;
+[gstreamer] gstCamera -- found 36 caps for v4l2 device /dev/video0
+[gstreamer] [0] video/x-raw, format=(string)YUY2, width=(int)2304, height=(int)1536, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)2/1;
+[gstreamer] [1] video/x-raw, format=(string)YUY2, width=(int)2304, height=(int)1296, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)2/1;
+[gstreamer] [2] video/x-raw, format=(string)YUY2, width=(int)1920, height=(int)1080, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)5/1;
+[gstreamer] [3] video/x-raw, format=(string)YUY2, width=(int)1600, height=(int)896, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 15/2, 5/1 };
+[gstreamer] [4] video/x-raw, format=(string)YUY2, width=(int)1280, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 10/1, 15/2, 5/1 };
+[gstreamer] [5] video/x-raw, format=(string)YUY2, width=(int)960, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [6] video/x-raw, format=(string)YUY2, width=(int)1024, height=(int)576, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [7] video/x-raw, format=(string)YUY2, width=(int)800, height=(int)600, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [8] video/x-raw, format=(string)YUY2, width=(int)864, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [9] video/x-raw, format=(string)YUY2, width=(int)800, height=(int)448, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [10] video/x-raw, format=(string)YUY2, width=(int)640, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [11] video/x-raw, format=(string)YUY2, width=(int)640, height=(int)360, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [12] video/x-raw, format=(string)YUY2, width=(int)432, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [13] video/x-raw, format=(string)YUY2, width=(int)352, height=(int)288, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [14] video/x-raw, format=(string)YUY2, width=(int)320, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [15] video/x-raw, format=(string)YUY2, width=(int)320, height=(int)180, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [16] video/x-raw, format=(string)YUY2, width=(int)176, height=(int)144, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [17] video/x-raw, format=(string)YUY2, width=(int)160, height=(int)120, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [18] video/x-raw, format=(string)YUY2, width=(int)160, height=(int)90, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [19] image/jpeg, width=(int)1920, height=(int)1080, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [20] image/jpeg, width=(int)1600, height=(int)896, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [21] image/jpeg, width=(int)1280, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [22] image/jpeg, width=(int)960, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [23] image/jpeg, width=(int)1024, height=(int)576, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [24] image/jpeg, width=(int)800, height=(int)600, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [25] image/jpeg, width=(int)864, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [26] image/jpeg, width=(int)800, height=(int)448, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [27] image/jpeg, width=(int)640, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [28] image/jpeg, width=(int)640, height=(int)360, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [29] image/jpeg, width=(int)432, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [30] image/jpeg, width=(int)352, height=(int)288, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [31] image/jpeg, width=(int)320, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [32] image/jpeg, width=(int)320, height=(int)180, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [33] image/jpeg, width=(int)176, height=(int)144, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [34] image/jpeg, width=(int)160, height=(int)120, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [35] image/jpeg, width=(int)160, height=(int)90, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] gstCamera -- selected device profile:  codec=MJPEG format=unknown width=1280 height=720
+[gstreamer] gstCamera pipeline string:
+[gstreamer] v4l2src device=/dev/video0 do-timestamp=true ! image/jpeg, width=(int)1280, height=(int)720 ! jpegdec name=decoder ! video/x-raw ! appsink name=mysink sync=false
+[gstreamer] gstCamera successfully created device v4l2:///dev/video0
+[0;32m[video]  created gstCamera from v4l2:///dev/video0
+[0m------------------------------------------------
+gstCamera video options:
+------------------------------------------------
+  -- URI: v4l2:///dev/video0
+     - protocol:  v4l2
+     - location:  /dev/video0
+  -- deviceType: v4l2
+  -- ioType:     input
+  -- codec:      MJPEG
+  -- codecType:  cpu
+  -- width:      1280
+  -- height:     720
+  -- frameRate:  30
+  -- numBuffers: 4
+  -- zeroCopy:   true
+  -- flipMethod: none
+------------------------------------------------
+[OpenGL] glDisplay -- X screen 0 resolution:  1920x1080
+[OpenGL] glDisplay -- X window resolution:    1920x1080
+[OpenGL] glDisplay -- display device initialized (1920x1080)
+[0;32m[video]  created glDisplay from display://0
+[0m------------------------------------------------
+glDisplay video options:
+------------------------------------------------
+  -- URI: display://0
+     - protocol:  display
+     - location:  0
+  -- deviceType: display
+  -- ioType:     output
+  -- width:      1920
+  -- height:     1080
+  -- frameRate:  0
+  -- numBuffers: 4
+  -- zeroCopy:   true
+------------------------------------------------
+
+detectNet -- loading detection network model from:
+          -- prototxt     
+          -- model        networks/facedetect_pruned_quantized_v2.0.1/resnet18_facedetect_pruned.etlt.engine
+          -- input_blob   'input_1'
+          -- output_cvg   'output_cov/Sigmoid'
+          -- output_bbox  'output_bbox/BiasAdd'
+          -- mean_pixel   0.000000
+          -- class_labels networks/facedetect_pruned_quantized_v2.0.1/labels.txt
+          -- class_colors networks/facedetect_pruned_quantized_v2.0.1/colors.txt
+          -- threshold    0.500000
+          -- batch_size   1
+
+[TRT]    TensorRT version 8.5.2
+[TRT]    loading NVIDIA plugins...
+[TRT]    Registered plugin creator - ::BatchedNMSDynamic_TRT version 1
+[TRT]    Registered plugin creator - ::BatchedNMS_TRT version 1
+[TRT]    Registered plugin creator - ::BatchTilePlugin_TRT version 1
+[TRT]    Registered plugin creator - ::Clip_TRT version 1
+[TRT]    Registered plugin creator - ::CoordConvAC version 1
+[TRT]    Registered plugin creator - ::CropAndResizeDynamic version 1
+[TRT]    Registered plugin creator - ::CropAndResize version 1
+[TRT]    Registered plugin creator - ::DecodeBbox3DPlugin version 1
+[TRT]    Registered plugin creator - ::DetectionLayer_TRT version 1
+[TRT]    Registered plugin creator - ::EfficientNMS_Explicit_TF_TRT version 1
+[TRT]    Registered plugin creator - ::EfficientNMS_Implicit_TF_TRT version 1
+[TRT]    Registered plugin creator - ::EfficientNMS_ONNX_TRT version 1
+[TRT]    Registered plugin creator - ::EfficientNMS_TRT version 1
+[0;31m[TRT]    Could not register plugin creator -  ::FlattenConcat_TRT version 1
+[0m[TRT]    Registered plugin creator - ::GenerateDetection_TRT version 1
+[TRT]    Registered plugin creator - ::GridAnchor_TRT version 1
+[TRT]    Registered plugin creator - ::GridAnchorRect_TRT version 1
+[TRT]    Registered plugin creator - ::GroupNorm version 1
+[TRT]    Registered plugin creator - ::InstanceNormalization_TRT version 1
+[TRT]    Registered plugin creator - ::InstanceNormalization_TRT version 2
+[TRT]    Registered plugin creator - ::LayerNorm version 1
+[TRT]    Registered plugin creator - ::LReLU_TRT version 1
+[TRT]    Registered plugin creator - ::MultilevelCropAndResize_TRT version 1
+[TRT]    Registered plugin creator - ::MultilevelProposeROI_TRT version 1
+[TRT]    Registered plugin creator - ::MultiscaleDeformableAttnPlugin_TRT version 1
+[TRT]    Registered plugin creator - ::NMSDynamic_TRT version 1
+[TRT]    Registered plugin creator - ::NMS_TRT version 1
+[TRT]    Registered plugin creator - ::Normalize_TRT version 1
+[TRT]    Registered plugin creator - ::PillarScatterPlugin version 1
+[TRT]    Registered plugin creator - ::PriorBox_TRT version 1
+[TRT]    Registered plugin creator - ::ProposalDynamic version 1
+[TRT]    Registered plugin creator - ::ProposalLayer_TRT version 1
+[TRT]    Registered plugin creator - ::Proposal version 1
+[TRT]    Registered plugin creator - ::PyramidROIAlign_TRT version 1
+[TRT]    Registered plugin creator - ::Region_TRT version 1
+[TRT]    Registered plugin creator - ::Reorg_TRT version 1
+[TRT]    Registered plugin creator - ::ResizeNearest_TRT version 1
+[TRT]    Registered plugin creator - ::ROIAlign_TRT version 1
+[TRT]    Registered plugin creator - ::RPROI_TRT version 1
+[TRT]    Registered plugin creator - ::ScatterND version 1
+[TRT]    Registered plugin creator - ::SeqLen2Spatial version 1
+[TRT]    Registered plugin creator - ::SpecialSlice_TRT version 1
+[TRT]    Registered plugin creator - ::SplitGeLU version 1
+[TRT]    Registered plugin creator - ::Split version 1
+[TRT]    Registered plugin creator - ::VoxelGeneratorPlugin version 1
+[TRT]    detected model format - engine  (extension '.engine')
+[TRT]    loading network plan from engine cache... networks/facedetect_pruned_quantized_v2.0.1/resnet18_facedetect_pruned.etlt.engine
+[TRT]    Loaded engine size: 2 MiB
+[0;33m[TRT]    Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[0m[TRT]    Deserialization required 23308 microseconds.
+[TRT]    [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +1, now: CPU 0, GPU 1 (MiB)
+[TRT]    Total per-runner device persistent memory is 0
+[TRT]    Total per-runner host persistent memory is 72896
+[TRT]    Allocated activation device memory of size 7348224
+[TRT]    [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +7, now: CPU 0, GPU 8 (MiB)
+[TRT]    
+[TRT]    CUDA engine context initialized on device GPU:
+[TRT]       -- layers       29
+[TRT]       -- maxBatchSize 1
+[TRT]       -- deviceMemory 7348224
+[TRT]       -- bindings     3
+[TRT]       binding 0
+                -- index   0
+                -- name    'input_1'
+                -- type    FP32
+                -- in/out  INPUT
+                -- # dims  3
+                -- dim #0  3
+                -- dim #1  416
+                -- dim #2  736
+[TRT]       binding 1
+                -- index   1
+                -- name    'output_bbox/BiasAdd'
+                -- type    FP32
+                -- in/out  OUTPUT
+                -- # dims  3
+                -- dim #0  4
+                -- dim #1  26
+                -- dim #2  46
+[TRT]       binding 2
+                -- index   2
+                -- name    'output_cov/Sigmoid'
+                -- type    FP32
+                -- in/out  OUTPUT
+                -- # dims  3
+                -- dim #0  1
+                -- dim #1  26
+                -- dim #2  46
+[TRT]    
+[TRT]    binding to input 0 input_1  binding index:  0
+[TRT]    binding to input 0 input_1  dims (b=1 c=3 h=416 w=736) size=3674112
+[TRT]    binding to output 0 output_cov/Sigmoid  binding index:  2
+[TRT]    binding to output 0 output_cov/Sigmoid  dims (b=1 c=1 h=26 w=46) size=4784
+[TRT]    binding to output 1 output_bbox/BiasAdd  binding index:  1
+[TRT]    binding to output 1 output_bbox/BiasAdd  dims (b=1 c=4 h=26 w=46) size=19136
+[0;32m[TRT]    device GPU, initialized networks/facedetect_pruned_quantized_v2.0.1/resnet18_facedetect_pruned.etlt.engine
+[0m[TRT]    detectNet -- number of object classes: 1
+[TRT]    detectNet -- maximum bounding boxes:   1196
+[TRT]    loaded 1 class labels
+[TRT]    detectNet -- number of object classes:  1
+[TRT]    class 00  color 225.000000 150.000000 0.000000 120.000000
+[TRT]    loaded 1 class colors
+[gstreamer] opening gstCamera for streaming, transitioning pipeline to GST_STATE_PLAYING
+[gstreamer] gstreamer changed state from NULL to READY ==> mysink
+[gstreamer] gstreamer changed state from NULL to READY ==> capsfilter1
+[gstreamer] gstreamer changed state from NULL to READY ==> decoder
+[gstreamer] gstreamer changed state from NULL to READY ==> capsfilter0
+[gstreamer] gstreamer changed state from NULL to READY ==> v4l2src0
+[gstreamer] gstreamer changed state from NULL to READY ==> pipeline0
+[gstreamer] gstreamer changed state from READY to PAUSED ==> capsfilter1
+[gstreamer] gstreamer changed state from READY to PAUSED ==> decoder
+[gstreamer] gstreamer changed state from READY to PAUSED ==> capsfilter0
+[gstreamer] gstreamer stream status CREATE ==> src
+[gstreamer] gstreamer changed state from READY to PAUSED ==> v4l2src0
+[gstreamer] gstreamer changed state from READY to PAUSED ==> pipeline0
+[gstreamer] gstreamer message new-clock ==> pipeline0
+[gstreamer] gstreamer changed state from PAUSED to PLAYING ==> capsfilter1
+[gstreamer] gstreamer changed state from PAUSED to PLAYING ==> decoder
+[gstreamer] gstreamer changed state from PAUSED to PLAYING ==> capsfilter0
+[gstreamer] gstreamer changed state from PAUSED to PLAYING ==> v4l2src0
+[gstreamer] gstreamer stream status ENTER ==> src
+[gstreamer] gstreamer message stream-start ==> pipeline0
+[gstreamer] gstCamera -- onPreroll
+[0;33m[gstreamer] gstBufferManager -- map buffer size was less than max size (1382400 vs 1382407)
+[0m[gstreamer] gstBufferManager recieve caps:  video/x-raw, format=(string)I420, width=(int)1280, height=(int)720, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, chroma-site=(string)mpeg2, colorimetry=(string)1:4:0:0, framerate=(fraction)30/1
+[gstreamer] gstBufferManager -- recieved first frame, codec=MJPEG format=i420 width=1280 height=720 size=1382407
+[cuda]   allocated 4 ring buffers (1382407 bytes each, 5529628 bytes total)
+[cuda]   allocated 4 ring buffers (8 bytes each, 32 bytes total)
+[gstreamer] gstreamer changed state from READY to PAUSED ==> mysink
+[gstreamer] gstreamer message async-done ==> pipeline0
+[gstreamer] gstreamer changed state from PAUSED to PLAYING ==> mysink
+[gstreamer] gstreamer changed state from PAUSED to PLAYING ==> pipeline0
+[cuda]   allocated 4 ring buffers (2764800 bytes each, 11059200 bytes total)
+[OpenGL] glDisplay -- set the window size to 1280x720
+[OpenGL] creating 1280x720 texture (GL_RGB8 format, 2764800 bytes)
+[cuda]   registered openGL texture for interop access (1280x720, GL_RGB8, 2764800 bytes)
+Namespace(input='/dev/video0', network='facedetect', output='', overlay='box,labels,conf', threshold=0.5)
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.976508
+   -- ClassID: 0
+   -- Left:    834.872
+   -- Top:     0
+   -- Right:   1051.57
+   -- Bottom:  223.066
+   -- Width:   216.695
+   -- Height:  223.066
+   -- Area:    48337.4
+   -- Center:  (943.219, 111.533)
+(943.219482421875, 111.53300476074219)
+classID =  0
+center x =  943.219482421875
+center y =  111.53300476074219
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.97578
+   -- ClassID: 0
+   -- Left:    834.09
+   -- Top:     0
+   -- Right:   1051.57
+   -- Bottom:  222.349
+   -- Width:   217.482
+   -- Height:  222.349
+   -- Area:    48356.8
+   -- Center:  (942.83, 111.174)
+(942.8304443359375, 111.17442321777344)
+classID =  0
+center x =  942.8304443359375
+center y =  111.17442321777344
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.978367
+   -- ClassID: 0
+   -- Left:    832.84
+   -- Top:     0
+   -- Right:   1050.56
+   -- Bottom:  222.99
+   -- Width:   217.715
+   -- Height:  222.99
+   -- Area:    48548.3
+   -- Center:  (941.698, 111.495)
+(941.6981811523438, 111.494873046875)
+classID =  0
+center x =  941.6981811523438
+center y =  111.494873046875
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.954327
+   -- ClassID: 0
+   -- Left:    836.069
+   -- Top:     0
+   -- Right:   1054.02
+   -- Bottom:  221.559
+   -- Width:   217.955
+   -- Height:  221.559
+   -- Area:    48290
+   -- Center:  (945.046, 110.78)
+(945.046142578125, 110.77970886230469)
+classID =  0
+center x =  945.046142578125
+center y =  110.77970886230469
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.957846
+   -- ClassID: 0
+   -- Left:    834.659
+   -- Top:     0
+   -- Right:   1052.74
+   -- Bottom:  220.865
+   -- Width:   218.083
+   -- Height:  220.865
+   -- Area:    48166.9
+   -- Center:  (943.7, 110.433)
+(943.700439453125, 110.43260192871094)
+classID =  0
+center x =  943.700439453125
+center y =  110.43260192871094
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.961071
+   -- ClassID: 0
+   -- Left:    835.095
+   -- Top:     0
+   -- Right:   1051.54
+   -- Bottom:  220.448
+   -- Width:   216.444
+   -- Height:  220.448
+   -- Area:    47714.6
+   -- Center:  (943.317, 110.224)
+(943.3165283203125, 110.22411346435547)
+classID =  0
+center x =  943.3165283203125
+center y =  110.22411346435547
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.94726
+   -- ClassID: 0
+   -- Left:    833.767
+   -- Top:     0
+   -- Right:   1054.37
+   -- Bottom:  220.989
+   -- Width:   220.604
+   -- Height:  220.989
+   -- Area:    48751
+   -- Center:  (944.069, 110.494)
+(944.0689697265625, 110.49429321289062)
+classID =  0
+center x =  944.0689697265625
+center y =  110.49429321289062
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.956237
+   -- ClassID: 0
+   -- Left:    834.013
+   -- Top:     0
+   -- Right:   1053.09
+   -- Bottom:  221.133
+   -- Width:   219.076
+   -- Height:  221.133
+   -- Area:    48444.9
+   -- Center:  (943.551, 110.567)
+(943.5512084960938, 110.5667495727539)
+classID =  0
+center x =  943.5512084960938
+center y =  110.5667495727539
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.958573
+   -- ClassID: 0
+   -- Left:    835.357
+   -- Top:     0
+   -- Right:   1053.1
+   -- Bottom:  220.497
+   -- Width:   217.745
+   -- Height:  220.497
+   -- Area:    48012
+   -- Center:  (944.23, 110.248)
+(944.2296752929688, 110.24825286865234)
+classID =  0
+center x =  944.2296752929688
+center y =  110.24825286865234
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.960576
+   -- ClassID: 0
+   -- Left:    834.575
+   -- Top:     0
+   -- Right:   1051.2
+   -- Bottom:  219.74
+   -- Width:   216.623
+   -- Height:  219.74
+   -- Area:    47600.7
+   -- Center:  (942.886, 109.87)
+(942.8864135742188, 109.87001037597656)
+classID =  0
+center x =  942.8864135742188
+center y =  109.87001037597656
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.952933
+   -- ClassID: 0
+   -- Left:    833.824
+   -- Top:     0
+   -- Right:   1052.89
+   -- Bottom:  220.429
+   -- Width:   219.061
+   -- Height:  220.429
+   -- Area:    48287.5
+   -- Center:  (943.355, 110.215)
+(943.3551635742188, 110.21458435058594)
+classID =  0
+center x =  943.3551635742188
+center y =  110.21458435058594
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.960695
+   -- ClassID: 0
+   -- Left:    833.977
+   -- Top:     0
+   -- Right:   1052.21
+   -- Bottom:  220.116
+   -- Width:   218.23
+   -- Height:  220.116
+   -- Area:    48036
+   -- Center:  (943.092, 110.058)
+(943.0916748046875, 110.05818939208984)
+classID =  0
+center x =  943.0916748046875
+center y =  110.05818939208984
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.955961
+   -- ClassID: 0
+   -- Left:    833.006
+   -- Top:     0
+   -- Right:   1050.88
+   -- Bottom:  220.283
+   -- Width:   217.876
+   -- Height:  220.283
+   -- Area:    47994.3
+   -- Center:  (941.944, 110.141)
+(941.9435424804688, 110.14147186279297)
+classID =  0
+center x =  941.9435424804688
+center y =  110.14147186279297
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.954734
+   -- ClassID: 0
+   -- Left:    834.213
+   -- Top:     0
+   -- Right:   1051.06
+   -- Bottom:  219.832
+   -- Width:   216.847
+   -- Height:  219.832
+   -- Area:    47669.9
+   -- Center:  (942.637, 109.916)
+(942.6365356445312, 109.91580963134766)
+classID =  0
+center x =  942.6365356445312
+center y =  109.91580963134766
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.948313
+   -- ClassID: 0
+   -- Left:    834.843
+   -- Top:     0
+   -- Right:   1049.24
+   -- Bottom:  219.571
+   -- Width:   214.394
+   -- Height:  219.571
+   -- Area:    47074.8
+   -- Center:  (942.04, 109.785)
+(942.0399169921875, 109.78549194335938)
+classID =  0
+center x =  942.0399169921875
+center y =  109.78549194335938
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.958399
+   -- ClassID: 0
+   -- Left:    834.57
+   -- Top:     0
+   -- Right:   1050.18
+   -- Bottom:  219.921
+   -- Width:   215.611
+   -- Height:  219.921
+   -- Area:    47417.2
+   -- Center:  (942.375, 109.96)
+(942.3751220703125, 109.96029663085938)
+classID =  0
+center x =  942.3751220703125
+center y =  109.96029663085938
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.959932
+   -- ClassID: 0
+   -- Left:    834.901
+   -- Top:     0
+   -- Right:   1051.15
+   -- Bottom:  219.511
+   -- Width:   216.249
+   -- Height:  219.511
+   -- Area:    47469.2
+   -- Center:  (943.025, 109.756)
+(943.0252685546875, 109.75558471679688)
+classID =  0
+center x =  943.0252685546875
+center y =  109.75558471679688
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.950019
+   -- ClassID: 0
+   -- Left:    833.436
+   -- Top:     0
+   -- Right:   1050.27
+   -- Bottom:  220.13
+   -- Width:   216.836
+   -- Height:  220.13
+   -- Area:    47732.2
+   -- Center:  (941.854, 110.065)
+(941.8541259765625, 110.06519317626953)
+classID =  0
+center x =  941.8541259765625
+center y =  110.06519317626953
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.954922
+   -- ClassID: 0
+   -- Left:    834.725
+   -- Top:     0
+   -- Right:   1051.26
+   -- Bottom:  219.023
+   -- Width:   216.538
+   -- Height:  219.023
+   -- Area:    47426.8
+   -- Center:  (942.994, 109.511)
+(942.9937744140625, 109.51148986816406)
+classID =  0
+center x =  942.9937744140625
+center y =  109.51148986816406
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.960363
+   -- ClassID: 0
+   -- Left:    833.3
+   -- Top:     0
+   -- Right:   1049.87
+   -- Bottom:  219.868
+   -- Width:   216.573
+   -- Height:  219.868
+   -- Area:    47617.5
+   -- Center:  (941.586, 109.934)
+(941.5859985351562, 109.9342269897461)
+classID =  0
+center x =  941.5859985351562
+center y =  109.9342269897461
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.954828
+   -- ClassID: 0
+   -- Left:    834.706
+   -- Top:     0
+   -- Right:   1050.86
+   -- Bottom:  219.482
+   -- Width:   216.149
+   -- Height:  219.482
+   -- Area:    47440.8
+   -- Center:  (942.781, 109.741)
+(942.78076171875, 109.7409896850586)
+classID =  0
+center x =  942.78076171875
+center y =  109.7409896850586
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.945833
+   -- ClassID: 0
+   -- Left:    834.465
+   -- Top:     0
+   -- Right:   1050.53
+   -- Bottom:  218.165
+   -- Width:   216.063
+   -- Height:  218.165
+   -- Area:    47137.3
+   -- Center:  (942.496, 109.082)
+(942.4962158203125, 109.0823974609375)
+classID =  0
+center x =  942.4962158203125
+center y =  109.0823974609375
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.950123
+   -- ClassID: 0
+   -- Left:    831.441
+   -- Top:     0
+   -- Right:   1051.99
+   -- Bottom:  219.107
+   -- Width:   220.548
+   -- Height:  219.107
+   -- Area:    48323.7
+   -- Center:  (941.716, 109.553)
+(941.7156372070312, 109.55345153808594)
+classID =  0
+center x =  941.7156372070312
+center y =  109.55345153808594
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.952253
+   -- ClassID: 0
+   -- Left:    834.436
+   -- Top:     0
+   -- Right:   1050.92
+   -- Bottom:  218.324
+   -- Width:   216.484
+   -- Height:  218.324
+   -- Area:    47263.7
+   -- Center:  (942.678, 109.162)
+(942.6783447265625, 109.16184997558594)
+classID =  0
+center x =  942.6783447265625
+center y =  109.16184997558594
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.953282
+   -- ClassID: 0
+   -- Left:    834.16
+   -- Top:     0
+   -- Right:   1050.2
+   -- Bottom:  219.393
+   -- Width:   216.035
+   -- Height:  219.393
+   -- Area:    47396.6
+   -- Center:  (942.178, 109.696)
+(942.1779174804688, 109.69648742675781)
+classID =  0
+center x =  942.1779174804688
+center y =  109.69648742675781
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.950063
+   -- ClassID: 0
+   -- Left:    833.575
+   -- Top:     0
+   -- Right:   1050.52
+   -- Bottom:  218.02
+   -- Width:   216.946
+   -- Height:  218.02
+   -- Area:    47298.5
+   -- Center:  (942.048, 109.01)
+(942.0482177734375, 109.00987243652344)
+classID =  0
+center x =  942.0482177734375
+center y =  109.00987243652344
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.948375
+   -- ClassID: 0
+   -- Left:    835.273
+   -- Top:     0
+   -- Right:   1049.76
+   -- Bottom:  217.922
+   -- Width:   214.483
+   -- Height:  217.922
+   -- Area:    46740.5
+   -- Center:  (942.515, 108.961)
+(942.5145263671875, 108.9609603881836)
+classID =  0
+center x =  942.5145263671875
+center y =  108.9609603881836
+0
+현재 가장 큰 값 :  0 번,  0
+k =  0
+motor =  1
+1
+detected 1 objects in image
+<detectNet.Detection object>
+   -- Confidence: 0.947509
+   -- ClassID: 0
+   -- Left:    834.504
+   -- Top:     0
+   -- Right:   1050.6
+   -- Bottom:  217.931
+   -- Width:   216.095
+   -- Height:  217.931
+   -- Area:    47093.8
+   -- Center:  (942.552, 108.965)
+(942.552001953125, 108.96537780761719)
+classID =  0
+center x =  942.552001953125
+center y =  108.96537780761719
+0
+현재 가장 큰 값 :  0 번,  0
+[gstreamer] gstCamera -- stopping pipeline, transitioning to GST_STATE_NULL
+[gstreamer] gstCamera -- pipeline stopped
+[gstreamer] initialized gstreamer, version 1.16.3.0
+[gstreamer] gstCamera -- attempting to create device v4l2:///dev/video0
+[gstreamer] gstCamera -- found v4l2 device: HD Pro Webcam C920
+[gstreamer] v4l2-proplist, device.path=(string)/dev/video0, udev-probed=(boolean)false, device.api=(string)v4l2, v4l2.device.driver=(string)uvcvideo, v4l2.device.card=(string)"HD\ Pro\ Webcam\ C920", v4l2.device.bus_info=(string)usb-3610000.xhci-1.1, v4l2.device.version=(uint)330344, v4l2.device.capabilities=(uint)2225078273, v4l2.device.device_caps=(uint)69206017;
+[gstreamer] gstCamera -- found 36 caps for v4l2 device /dev/video0
+[gstreamer] [0] video/x-raw, format=(string)YUY2, width=(int)2304, height=(int)1536, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)2/1;
+[gstreamer] [1] video/x-raw, format=(string)YUY2, width=(int)2304, height=(int)1296, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)2/1;
+[gstreamer] [2] video/x-raw, format=(string)YUY2, width=(int)1920, height=(int)1080, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)5/1;
+[gstreamer] [3] video/x-raw, format=(string)YUY2, width=(int)1600, height=(int)896, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 15/2, 5/1 };
+[gstreamer] [4] video/x-raw, format=(string)YUY2, width=(int)1280, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 10/1, 15/2, 5/1 };
+[gstreamer] [5] video/x-raw, format=(string)YUY2, width=(int)960, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [6] video/x-raw, format=(string)YUY2, width=(int)1024, height=(int)576, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [7] video/x-raw, format=(string)YUY2, width=(int)800, height=(int)600, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [8] video/x-raw, format=(string)YUY2, width=(int)864, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [9] video/x-raw, format=(string)YUY2, width=(int)800, height=(int)448, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [10] video/x-raw, format=(string)YUY2, width=(int)640, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [11] video/x-raw, format=(string)YUY2, width=(int)640, height=(int)360, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [12] video/x-raw, format=(string)YUY2, width=(int)432, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [13] video/x-raw, format=(string)YUY2, width=(int)352, height=(int)288, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [14] video/x-raw, format=(string)YUY2, width=(int)320, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [15] video/x-raw, format=(string)YUY2, width=(int)320, height=(int)180, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [16] video/x-raw, format=(string)YUY2, width=(int)176, height=(int)144, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [17] video/x-raw, format=(string)YUY2, width=(int)160, height=(int)120, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [18] video/x-raw, format=(string)YUY2, width=(int)160, height=(int)90, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [19] image/jpeg, width=(int)1920, height=(int)1080, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [20] image/jpeg, width=(int)1600, height=(int)896, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [21] image/jpeg, width=(int)1280, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [22] image/jpeg, width=(int)960, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [23] image/jpeg, width=(int)1024, height=(int)576, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [24] image/jpeg, width=(int)800, height=(int)600, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [25] image/jpeg, width=(int)864, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [26] image/jpeg, width=(int)800, height=(int)448, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [27] image/jpeg, width=(int)640, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [28] image/jpeg, width=(int)640, height=(int)360, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [29] image/jpeg, width=(int)432, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [30] image/jpeg, width=(int)352, height=(int)288, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [31] image/jpeg, width=(int)320, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [32] image/jpeg, width=(int)320, height=(int)180, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [33] image/jpeg, width=(int)176, height=(int)144, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [34] image/jpeg, width=(int)160, height=(int)120, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] [35] image/jpeg, width=(int)160, height=(int)90, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 24/1, 20/1, 15/1, 10/1, 15/2, 5/1 };
+[gstreamer] gstCamera -- selected device profile:  codec=MJPEG format=unknown width=1280 height=720
+[gstreamer] gstCamera pipeline string:
+[gstreamer] v4l2src device=/dev/video0 do-timestamp=true ! image/jpeg, width=(int)1280, height=(int)720 ! jpegdec name=decoder ! video/x-raw ! appsink name=mysink sync=false
+[gstreamer] gstCamera successfully created device v4l2:///dev/video0
+[0;32m[video]  created gstCamera from v4l2:///dev/video0
+[0m------------------------------------------------
+gstCamera video options:
+------------------------------------------------
+  -- URI: v4l2:///dev/video0
+     - protocol:  v4l2
+     - location:  /dev/video0
+  -- deviceType: v4l2
+  -- ioType:     input
+  -- codec:      MJPEG
+  -- codecType:  cpu
+  -- width:      1280
+  -- height:     720
+  -- frameRate:  30
+  -- numBuffers: 4
+  -- zeroCopy:   true
+  -- flipMethod: none
+------------------------------------------------
+[OpenGL] glDisplay -- X screen 0 resolution:  1920x1080
+[OpenGL] glDisplay -- X window resolution:    1920x1080
+[OpenGL] glDisplay -- display device initialized (1920x1080)
+[0;32m[video]  created glDisplay from display://0
+[0m------------------------------------------------
+glDisplay video options:
+------------------------------------------------
+  -- URI: display://0
+     - protocol:  display
+     - location:  0
+  -- deviceType: display
+  -- ioType:     output
+  -- width:      1920
+  -- height:     1080
+  -- frameRate:  0
+  -- numBuffers: 4
+  -- zeroCopy:   true
+------------------------------------------------
+
+detectNet -- loading detection network model from:
+          -- prototxt     
+          -- model        networks/facedetect_pruned_quantized_v2.0.1/resnet18_facedetect_pruned.etlt.engine
+          -- input_blob   'input_1'
+          -- output_cvg   'output_cov/Sigmoid'
+          -- output_bbox  'output_bbox/BiasAdd'
+          -- mean_pixel   0.000000
+          -- class_labels networks/facedetect_pruned_quantized_v2.0.1/labels.txt
+          -- class_colors networks/facedetect_pruned_quantized_v2.0.1/colors.txt
+          -- threshold    0.500000
+          -- batch_size   1
+
+[TRT]    TensorRT version 8.5.2
+[TRT]    loading NVIDIA plugins...
+[TRT]    Registered plugin creator - ::BatchedNMSDynamic_TRT version 1
+[TRT]    Registered plugin creator - ::BatchedNMS_TRT version 1
+[TRT]    Registered plugin creator - ::BatchTilePlugin_TRT version 1
+[TRT]    Registered plugin creator - ::Clip_TRT version 1
+[TRT]    Registered plugin creator - ::CoordConvAC version 1
+[TRT]    Registered plugin creator - ::CropAndResizeDynamic version 1
+[TRT]    Registered plugin creator - ::CropAndResize version 1
+[TRT]    Registered plugin creator - ::DecodeBbox3DPlugin version 1
+[TRT]    Registered plugin creator - ::DetectionLayer_TRT version 1
+[TRT]    Registered plugin creator - ::EfficientNMS_Explicit_TF_TRT version 1
+[TRT]    Registered plugin creator - ::EfficientNMS_Implicit_TF_TRT version 1
+[TRT]    Registered plugin creator - ::EfficientNMS_ONNX_TRT version 1
+[TRT]    Registered plugin creator - ::EfficientNMS_TRT version 1
+[0;31m[TRT]    Could not register plugin creator -  ::FlattenConcat_TRT version 1
+[0m[TRT]    Registered plugin creator - ::GenerateDetection_TRT version 1
+[TRT]    Registered plugin creator - ::GridAnchor_TRT version 1
+[TRT]    Registered plugin creator - ::GridAnchorRect_TRT version 1
+[TRT]    Registered plugin creator - ::GroupNorm version 1
+[TRT]    Registered plugin creator - ::InstanceNormalization_TRT version 1
+[TRT]    Registered plugin creator - ::InstanceNormalization_TRT version 2
+[TRT]    Registered plugin creator - ::LayerNorm version 1
+[TRT]    Registered plugin creator - ::LReLU_TRT version 1
+[TRT]    Registered plugin creator - ::MultilevelCropAndResize_TRT version 1
+[TRT]    Registered plugin creator - ::MultilevelProposeROI_TRT version 1
+[TRT]    Registered plugin creator - ::MultiscaleDeformableAttnPlugin_TRT version 1
+[TRT]    Registered plugin creator - ::NMSDynamic_TRT version 1
+[TRT]    Registered plugin creator - ::NMS_TRT version 1
+[TRT]    Registered plugin creator - ::Normalize_TRT version 1
+[TRT]    Registered plugin creator - ::PillarScatterPlugin version 1
+[TRT]    Registered plugin creator - ::PriorBox_TRT version 1
+[TRT]    Registered plugin creator - ::ProposalDynamic version 1
+[TRT]    Registered plugin creator - ::ProposalLayer_TRT version 1
+[TRT]    Registered plugin creator - ::Proposal version 1
+[TRT]    Registered plugin creator - ::PyramidROIAlign_TRT version 1
+[TRT]    Registered plugin creator - ::Region_TRT version 1
+[TRT]    Registered plugin creator - ::Reorg_TRT version 1
+[TRT]    Registered plugin creator - ::ResizeNearest_TRT version 1
+[TRT]    Registered plugin creator - ::ROIAlign_TRT version 1
+[TRT]    Registered plugin creator - ::RPROI_TRT version 1
+[TRT]    Registered plugin creator - ::ScatterND version 1
+[TRT]    Registered plugin creator - ::SeqLen2Spatial version 1
+[TRT]    Registered plugin creator - ::SpecialSlice_TRT version 1
+[TRT]    Registered plugin creator - ::SplitGeLU version 1
+[TRT]    Registered plugin creator - ::Split version 1
+[TRT]    Registered plugin creator - ::VoxelGeneratorPlugin version 1
+[TRT]    detected model format - engine  (extension '.engine')
+[TRT]    loading network plan from engine cache... networks/facedetect_pruned_quantized_v2.0.1/resnet18_facedetect_pruned.etlt.engine
+[TRT]    Loaded engine size: 2 MiB
+[0;33m[TRT]    Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[0m[TRT]    Deserialization required 19482 microseconds.
+[TRT]    [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +1, now: CPU 0, GPU 1 (MiB)
+[TRT]    Total per-runner device persistent memory is 0
+[TRT]    Total per-runner host persistent memory is 72896
+[TRT]    Allocated activation device memory of size 7348224
+[TRT]    [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +7, now: CPU 0, GPU 8 (MiB)
+[TRT]    
+[TRT]    CUDA engine context initialized on device GPU:
+[TRT]       -- layers       29
+[TRT]       -- maxBatchSize 1
+[TRT]       -- deviceMemory 7348224
+[TRT]       -- bindings     3
+[TRT]       binding 0
+                -- index   0
+                -- name    'input_1'
+                -- type    FP32
+                -- in/out  INPUT
+                -- # dims  3
+                -- dim #0  3
+                -- dim #1  416
+                -- dim #2  736
+[TRT]       binding 1
+                -- index   1
+                -- name    'output_bbox/BiasAdd'
+                -- type    FP32
+                -- in/out  OUTPUT
+                -- # dims  3
+                -- dim #0  4
+                -- dim #1  26
+                -- dim #2  46
+[TRT]       binding 2
+                -- index   2
+                -- name    'output_cov/Sigmoid'
+                -- type    FP32
+                -- in/out  OUTPUT
+                -- # dims  3
+                -- dim #0  1
+                -- dim #1  26
+                -- dim #2  46
+[TRT]    
+[TRT]    binding to input 0 input_1  binding index:  0
+[TRT]    binding to input 0 input_1  dims (b=1 c=3 h=416 w=736) size=3674112
+[TRT]    binding to output 0 output_cov/Sigmoid  binding index:  2
+[TRT]    binding to output 0 output_cov/Sigmoid  dims (b=1 c=1 h=26 w=46) size=4784
+[TRT]    binding to output 1 output_bbox/BiasAdd  binding index:  1
+[TRT]    binding to output 1 output_bbox/BiasAdd  dims (b=1 c=4 h=26 w=46) size=19136
+[0;32m[TRT]    device GPU, initialized networks/facedetect_pruned_quantized_v2.0.1/resnet18_facedetect_pruned.etlt.engine
+[0m[TRT]    detectNet -- number of object classes: 1
+[TRT]    detectNet -- maximum bounding boxes:   1196
+[TRT]    loaded 1 class labels
+[TRT]    detectNet -- number of object classes:  1
+[TRT]    class 00  color 225.000000 150.000000 0.000000 120.000000
+[TRT]    loaded 1 class colors
+['/home/boeun/jetson-inference/build/aarch64/bin/controlTest.py', '--network=facedetect', '/dev/video0']
